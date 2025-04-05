@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Downloader Pro - Download Without Watermark</title>
+    <meta name="description" content="Download high-quality TikTok videos without watermark">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Animated Background -->
+        <div class="bg-animation">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+
+        <!-- ... (bagian head tetap sama) ... -->
+<body class="light-mode">
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox">
+            <div class="slider round"></div>
+        </label>
+        <span id="theme-label">Dark Mode</span>
+    </div>
+
+        <!-- Main Card -->
+        <div class="card">
+            <div class="card-header">
+                <div class="logo">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok Downloader</span>
+                </div>
+                <p class="tagline">Download videos without watermark in HD quality</p>
+            </div>
+
+            <div class="card-body">
+                <!-- URL Input Section -->
+                <div class="input-section">
+                    <div class="input-group">
+                        <i class="fas fa-link"></i>
+                        <input type="text" id="tiktok-url" placeholder="Paste TikTok video URL here..." required>
+                        <button id="download-btn" class="btn-primary">
+                            <span class="btn-text">Download</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </button>
+                    </div>
+                    <p class="input-hint">Example: https://www.tiktok.com/@username/video/123456...</p>
+                </div>
+
+                <!-- Result Section -->
+                <div class="result-section" id="result">
+                    <div class="state-empty" id="empty-state">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3041/3041841.png" alt="Empty state" class="empty-image">
+                        <h3>No video processed yet</h3>
+                        <p>Paste a TikTok URL above to download the video</p>
+                    </div>
+
+                    <div class="state-loading" id="loading-state">
+                        <div class="loader">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <p>Processing your video...</p>
+                    </div>
+
+                    <div class="state-result" id="result-state"></div>
+
+                    <div class="state-error" id="error-state">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <h3 id="error-message">Error occurred</h3>
+                        <button class="btn-secondary" id="retry-btn">Try Again</button>
+                    </div>
+                </div>
+
+                <!-- Features Section -->
+                <div class="features-section">
+                    <div class="feature">
+                        <i class="fas fa-bolt"></i>
+                        <h4>Fast Download</h4>
+                        <p>Get your videos in seconds</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-highlighter"></i>
+                        <h4>No Watermark</h4>
+                        <p>Clean videos without logo</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile Friendly</h4>
+                        <p>Works on all devices</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <p>Free service - No registration required</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="how-it-works">
+            <h2>How to Download TikTok Videos</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Copy the link from TikTok app</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Paste the URL in the box above</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Click the Download button</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Save your watermark-free video</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
